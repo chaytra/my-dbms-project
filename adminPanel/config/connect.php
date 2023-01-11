@@ -9,8 +9,8 @@ session_start();
 define('LOCALHOST','localhost');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','');
-define('DB_NAME','food_order');
-define("INDEXPAGE",'http://localhost/dbms/');
+define('DB_NAME','rest');
+define("INDEXPAGE",'http://localhost/rest/');
 
 // Making connection to database
 $conn = mysqli_connect(LOCALHOST,DB_USERNAME,DB_PASSWORD,DB_NAME) or die("Connection Failed");
