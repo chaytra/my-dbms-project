@@ -9,7 +9,7 @@ session_start();
 define('LOCALHOST','localhost');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','');
-define('DB_NAME','rest');
+define('DB_NAME','food_order');
 define("INDEXPAGE",'http://localhost/rest/');
 
 // Making connection to database
